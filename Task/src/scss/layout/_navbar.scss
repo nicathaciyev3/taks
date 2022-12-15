@@ -1,0 +1,19 @@
+nav{
+    @media(max-width:768px){
+        display: none;}
+    #menu{
+        .logo{
+            margin: 10px 0px;
+        }
+        .text{
+            margin: 10px 0px;
+            ul{
+                display: flex;
+                gap: 30px;
+                li{
+                    list-style: none;
+                }
+            }
+        }
+    }
+}
